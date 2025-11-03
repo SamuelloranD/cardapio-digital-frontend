@@ -19,6 +19,7 @@ function App() {
       <div className="card-grid">
         {data?.map(foodData => 
           <Card 
+            id={foodData.id!!}
             price={foodData.price} 
             title={foodData.title} 
             image={foodData.image}

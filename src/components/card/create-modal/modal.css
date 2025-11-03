@@ -13,11 +13,12 @@
     z-index: 999;
 }
 
+
 .modal-overlay .modal-body {
     background-color: rgb(213, 164, 6);
-    padding: 24px;
+    padding: 20px;
     height: 60%;
-    width: 60%;
+    width: 40%;
     border-radius: 24px;
 
     display: flex;
@@ -27,6 +28,7 @@
 }
 
 .modal-overlay .modal-body h2 {
+    color: #000000;
     font-size: 32px;
 }
 

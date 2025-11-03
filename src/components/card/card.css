@@ -1,4 +1,5 @@
 .card {
+    position: relative;
     display: flex;
     background-color: rgb(2, 104, 104);
     flex-direction: column;
@@ -8,10 +9,29 @@
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 0;
+    text-align: center;
 }
 
 .card img {
     border-radius: 8px 8px 0 0;
     width: 250px;
     height: 200px;
+}
+
+.card .delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.card .delete-btn svg {
+  color: rgb(246, 0, 0);
+  width: 20px;
+  height: 20px;
 }
